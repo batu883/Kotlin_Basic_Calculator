@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/Ekran"
+        android:layout_width="match_parent"
+        android:layout_height="228dp"
+        android:background="@color/purple_500"
+        android:ems="10"
+        android:gravity="center|right"
+        android:inputType="textPersonName"
+        android:paddingTop="65dp"
+        android:paddingRight="20dp"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/BtnAc"
+                android:layout_width="65dp"
+                android:layout_height="70dp"
+                android:layout_marginStart="35dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/usttaraf"
+                android:onClick="ac"
+                android:text="AC"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/BtnArtıEksi"
+                android:layout_width="65dp"
+                android:layout_height="70dp"
+                android:layout_marginStart="35dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/usttaraf"
+                android:onClick="SayiSec"
+                android:text="+/-"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/BtnYuzde"
+                android:layout_width="65dp"
+                android:layout_height="70dp"
+                android:layout_marginStart="35dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/usttaraf"
+                android:onClick="yüzde"
+                android:text="%"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/BtnBolme"
+                android:layout_width="65dp"
+                android:layout_height="70dp"
+                android:layout_marginStart="35dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/usttaraf"
+                android:backgroundTint="#FF9800"
+                android:onClick="DörtIslem"
+                android:text="/"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/Btn7"
+                android:layout_width="65dp"
+                android:layout_height="70dp"
+                android:layout_marginStart="35dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/usttaraf"
+                android:backgroundTint="#95373030"
+                android:onClick="SayiSec"
+                android:text="7"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Btn8"
+                android:layout_width="65dp"
+                android:layout_height="70dp"
+                android:layout_marginStart="35dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/usttaraf"
+                android:backgroundTint="#95373030"
+                android:onClick="SayiSec"
+                android:text="8"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Btn9"
+                android:layout_width="65dp"
+                android:layout_height="70dp"
+                android:layout_marginStart="35dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/usttaraf"
+                android:backgroundTint="#95373030"
+                android:onClick="SayiSec"
+                android:text="9"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/BtnCarpi"
+                android:layout_width="65dp"
+                android:layout_height="70dp"
+                android:layout_marginStart="35dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/usttaraf"
+                android:backgroundTint="#FF9800"
+                android:onClick="DörtIslem"
+                android:text="X"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/Btn4"
+                android:layout_width="65dp"
+                android:layout_height="70dp"
+                android:layout_marginStart="35dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/usttaraf"
+                android:backgroundTint="#95373030"
+                android:onClick="SayiSec"
+                android:text="4"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Btn5"
+                android:layout_width="65dp"
+                android:layout_height="70dp"
+                android:layout_marginStart="35dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/usttaraf"
+                android:backgroundTint="#95373030"
+                android:onClick="SayiSec"
+                android:text="5"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Btn6"
+                android:layout_width="65dp"
+                android:layout_height="70dp"
+                android:layout_marginStart="35dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/usttaraf"
+                android:backgroundTint="#95373030"
+                android:onClick="SayiSec"
+                android:text="6"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/BtnEksi"
+                android:layout_width="65dp"
+                android:layout_height="70dp"
+                android:layout_marginStart="35dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/usttaraf"
+                android:backgroundTint="#FF9800"
+                android:onClick="DörtIslem"
+                android:text="-"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/Btn1"
+                android:layout_width="65dp"
+                android:layout_height="70dp"
+                android:layout_marginStart="35dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/usttaraf"
+                android:backgroundTint="#95373030"
+                android:onClick="SayiSec"
+                android:text="1"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Btn2"
+                android:layout_width="65dp"
+                android:layout_height="70dp"
+                android:layout_marginStart="35dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/usttaraf"
+                android:backgroundTint="#95373030"
+                android:onClick="SayiSec"
+                android:text="2"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Btn3"
+                android:layout_width="65dp"
+                android:layout_height="70dp"
+                android:layout_marginStart="35dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/usttaraf"
+                android:backgroundTint="#95373030"
+                android:onClick="SayiSec"
+                android:text="3"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/BtnArti"
+                android:layout_width="65dp"
+                android:layout_height="70dp"
+                android:layout_marginStart="35dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/usttaraf"
+                android:backgroundTint="#FF9800"
+                android:onClick="DörtIslem"
+                android:text="+"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/Btn0"
+                android:layout_width="65dp"
+                android:layout_height="70dp"
+                android:layout_marginStart="35dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/usttaraf"
+                android:backgroundTint="#95373030"
+                android:onClick="SayiSec"
+                android:text="0"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button26"
+                android:layout_width="65dp"
+                android:layout_height="70dp"
+                android:layout_marginStart="35dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/usttaraf"
+                android:backgroundTint="#95373030"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/BtnNokta"
+                android:layout_width="65dp"
+                android:layout_height="70dp"
+                android:layout_marginStart="35dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/usttaraf"
+                android:backgroundTint="#95373030"
+                android:onClick="nokta"
+                android:text="."
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/BtnEsittir"
+                android:layout_width="65dp"
+                android:layout_height="70dp"
+                android:layout_marginStart="35dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/usttaraf"
+                android:backgroundTint="#FF9800"
+                android:onClick="esittir"
+                android:text="="
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>
